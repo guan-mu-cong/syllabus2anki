@@ -1,0 +1,11 @@
+# core
+PyYAML>=6.0
+requests>=2.28
+wordfreq>=3.0
+PyMuPDF>=1.23        # stage 01 PDF extraction (AGPL — fine for personal use)
+
+# optional
+# pyphen             # better syllable splitting (graceful fallback without it)
+
+# system dependency (not pip):
+#   ffmpeg on PATH   # stage 03 audio transcode

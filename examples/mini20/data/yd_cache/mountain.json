@@ -1,0 +1,92 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈmaʊn.tən",
+    "usphone": "ˈmaʊn.tn",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 山，高山"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 3,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "高山",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "Snow covered the mountain all year.",
+            "chn_sent": "雪终年覆盖着这座山。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "a very high hill"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "We climbed the mountain in two days.",
+    "sentence-translation": "我们用两天时间爬上了这座山。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "mountain range",
+     "trs": [
+      {
+       "tr": "山脉"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {}
+}

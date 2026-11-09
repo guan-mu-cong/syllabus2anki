@@ -1,0 +1,79 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈəʊ.ʃən",
+    "usphone": "ˈoʊ.ʃən",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 海洋，大海"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 3,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "海洋",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The Pacific is the largest ocean.",
+            "chn_sent": "太平洋是最大的洋。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "the large body of salt water covering most of the earth"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "They sailed across the ocean last summer.",
+    "sentence-translation": "去年夏天他们扬帆横渡大洋。"
+   }
+  ]
+ },
+ "phrs": {},
+ "rel_word": {}
+}

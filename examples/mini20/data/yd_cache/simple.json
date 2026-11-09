@@ -1,0 +1,92 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈsɪm.pəl",
+    "usphone": "ˈsɪm.pəl",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "adj. 简单的，容易的"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 4,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "ADJ",
+          "pos_tips": "形容词"
+         },
+         "tran": "简单的",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The instructions are simple to follow.",
+            "chn_sent": "这些说明很容易照做。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "adj.",
+     "tr": [
+      {
+       "l": "easy to understand or do"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "It was a simple question with a clear answer.",
+    "sentence-translation": "那是一个有明确答案的简单问题。"
+   }
+  ]
+ },
+ "phrs": {},
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "simply",
+       "tran": "简单地"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

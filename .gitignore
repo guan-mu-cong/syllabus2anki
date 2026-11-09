@@ -6,3 +6,6 @@ downloads/
 # python
 __pycache__/
 *.pyc
+
+# demo outputs
+examples/mini20/out/

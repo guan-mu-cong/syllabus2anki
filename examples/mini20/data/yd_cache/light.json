@@ -1,0 +1,126 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "laɪt",
+    "usphone": "laɪt",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 光，光线"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "adj. 轻的"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-UNCOUNT",
+          "pos_tips": "不可数名词"
+         },
+         "tran": "光",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The room was full of light.",
+            "chn_sent": "房间里充满阳光。"
+           }
+          ]
+         }
+        },
+        {
+         "pos_entry": {
+          "pos": "ADJ",
+          "pos_tips": "形容词"
+         },
+         "tran": "轻的",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The box is surprisingly light.",
+            "chn_sent": "这个箱子出乎意料地轻。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "energy from the sun or a lamp that lets you see"
+      }
+     ]
+    },
+    {
+     "pos": "adj.",
+     "tr": [
+      {
+       "l": "not heavy"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "Turn on the light, please.",
+    "sentence-translation": "请开灯。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "in the light of",
+     "trs": [
+      {
+       "tr": "鉴于"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {}
+}

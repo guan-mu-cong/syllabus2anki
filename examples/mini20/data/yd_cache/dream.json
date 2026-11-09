@@ -1,0 +1,124 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "driːm",
+    "usphone": "driːm",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 梦，梦想"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "v. 做梦，梦见"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 4,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "梦",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "I had a strange dream last night.",
+            "chn_sent": "我昨晚做了一个奇怪的梦。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "images and thoughts in your mind while you sleep"
+      }
+     ]
+    },
+    {
+     "pos": "v.",
+     "tr": [
+      {
+       "l": "to have images in your mind while sleeping"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "Her dream is to become a doctor.",
+    "sentence-translation": "她的梦想是成为一名医生。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "dream come true",
+     "trs": [
+      {
+       "tr": "梦想成真"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "dreamy",
+       "tran": "梦幻般的"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

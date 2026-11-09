@@ -1,0 +1,92 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈhæp.i",
+    "usphone": "ˈhæp.i",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "adj. 快乐的，幸福的"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "ADJ",
+          "pos_tips": "形容词"
+         },
+         "tran": "快乐的",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The news made everyone happy.",
+            "chn_sent": "这个消息让大家都很开心。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "adj.",
+     "tr": [
+      {
+       "l": "feeling or showing pleasure"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "She was happy to see her old teacher again.",
+    "sentence-translation": "再次见到老师她很高兴。"
+   }
+  ]
+ },
+ "phrs": {},
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "happiness",
+       "tran": "幸福"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

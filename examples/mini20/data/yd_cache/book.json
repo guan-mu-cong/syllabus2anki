@@ -1,0 +1,139 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "bʊk",
+    "usphone": "bʊk",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 书，书籍"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "v. 预订，预约"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "书，著作",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "He is reading a book about history.",
+            "chn_sent": "他正在读一本历史书。"
+           }
+          ]
+         }
+        },
+        {
+         "pos_entry": {
+          "pos": "VERB",
+          "pos_tips": "动词"
+         },
+         "tran": "预订",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "I want to book a table for two.",
+            "chn_sent": "我想预订一张两人桌。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "a written work published in printed or electronic form"
+      }
+     ]
+    },
+    {
+     "pos": "v.",
+     "tr": [
+      {
+       "l": "to arrange to have a seat, room, etc. at a future time"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "I book a seat on the morning train every week.",
+    "sentence-translation": "我每周都预订早班火车的座位。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "book review",
+     "trs": [
+      {
+       "tr": "书评"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "booking",
+       "tran": "预订"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

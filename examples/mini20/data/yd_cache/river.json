@@ -1,0 +1,79 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈrɪv.ər",
+    "usphone": "ˈrɪv.ɚ",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 河，江"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 4,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "河流",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The river flows into the sea.",
+            "chn_sent": "这条河流入大海。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "a large natural flow of water"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "They built a small bridge across the river.",
+    "sentence-translation": "他们在河上建了一座小桥。"
+   }
+  ]
+ },
+ "phrs": {},
+ "rel_word": {}
+}

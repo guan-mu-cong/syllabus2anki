@@ -1,0 +1,105 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "lɜːn",
+    "usphone": "lɝːn",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "v. 学习，学会"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "VERB",
+          "pos_tips": "动词"
+         },
+         "tran": "学习",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "Children learn languages quickly.",
+            "chn_sent": "孩子学语言很快。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "v.",
+     "tr": [
+      {
+       "l": "to gain knowledge or skill by studying or practice"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "He wants to learn how to swim this year.",
+    "sentence-translation": "他今年想学游泳。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "learn from",
+     "trs": [
+      {
+       "tr": "向…学习"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "learner",
+       "tran": "学习者"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

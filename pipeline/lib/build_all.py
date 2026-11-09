@@ -1,6 +1,7 @@
-# Vendored from the private production pipeline (syllabus2anki M2).
-# Logic is UNCHANGED except the WS data-dir override via S2A_DATA_DIR,
-# so regression output is byte-identical to production. See docs/pipeline.md.
+# Vendored from the private production pipeline (syllabus2anki).
+# Logic UNCHANGED except: (1) WS data-dir override via S2A_DATA_DIR,
+# (2) tolerant/overridable data-file loads (S2A_ENTRIES / S2A_AUDIO_MAP_OUT).
+# Regression-verified byte-identical against production outputs. See docs/pipeline.md.
 # -*- coding: utf-8 -*-
 """
 全量建卡引擎（v4）
@@ -22,7 +23,27 @@ import p0_clean as P0
 import ydparse
 import build_v3 as B
 
-ENTRIES = json.load(open(os.path.join(WS, "entries_7619.json"), encoding="utf-8"))["entries"]
+def _s2a_load(name, default):
+    """Tolerant JSON load: missing/corrupt file -> default (keeps new-word runs lean)."""
+    p = os.path.join(WS, name)
+    if not os.path.exists(p):
+        return default
+    try:
+        return json.load(open(p, encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def _s2a_entries():
+    d = _s2a_load(os.environ.get("S2A_ENTRIES", "entries_7619.json"), None)
+    if d is None:
+        return []
+    if isinstance(d, list):
+        return d
+    return d.get("entries") or d.get("words") or []
+
+
+ENTRIES = _s2a_entries()
 
 # 音频映射：audio_map2.json 按单词索引（p2_audio.py 产出，覆盖全量 7809 词）
 # 旧的 audio_map.json 只按 plan.json 的 id 索引且仅 5278 项，不足以覆盖全量

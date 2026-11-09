@@ -1,0 +1,105 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈæp.l̩",
+    "usphone": "ˈæp.l̩",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 苹果；苹果树"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 3,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "苹果，一种常见的水果",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The apple is one of the most popular fruits.",
+            "chn_sent": "苹果是最常见的水果之一。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "a round fruit with red, green or yellow skin"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "She picked a ripe apple from the tree.",
+    "sentence-translation": "她从树上摘下一个成熟的苹果。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "apple of one's eye",
+     "trs": [
+      {
+       "tr": "掌上明珠"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "applesauce",
+       "tran": "苹果酱"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

@@ -58,10 +58,14 @@ def main():
 
     # Inject data dir BEFORE importing the vendored lib (module-level loads).
     os.environ["S2A_DATA_DIR"] = data_dir
+    if cfg.get("entries"):
+        os.environ["S2A_ENTRIES"] = cfg["entries"]  # file name, relative to data_dir
     sys.path.insert(0, os.path.join(HERE, "lib"))
     import build_all as BA  # noqa: E402  (import order matters here)
 
     entries = BA.ENTRIES
+    if not entries:
+        sys.exit(f"no entries found (looked for {os.environ.get('S2A_ENTRIES', 'entries_7619.json')} in {data_dir})")
     print(f"entries: {len(entries)} (from {data_dir})")
     cards, errs = [], []
     for i, e in enumerate(entries):

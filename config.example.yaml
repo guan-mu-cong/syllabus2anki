@@ -70,6 +70,81 @@ build:
   #   entries_7619.json  plan.json  corpus.json  hbs_index.json
   #   engra_index.json  audio_map.json  audio_map2.json  translations.json
   #   ai_mnemonic.json  yd_cache/
+  # (all optional except entries — missing aux files load as empty)
   # NOT bundled in this repo (dictionary-derived data); see docs/compliance.md.
   data_dir: work
+  entries: entries_7619.json    # file name inside data_dir; "entries"/"words"/list all accepted
   out_path: work/cards_built.json
+
+fetch:
+  data_dir: work
+  entries: entries_7619.json
+  cache_dir: yd_cache
+  provider: youdao              # example provider; add yours in PROVIDERS
+  workers: 6
+  delay_s: 0.3                  # politeness delay per worker
+  timeout: 25
+
+audio:
+  data_dir: work
+  entries: entries_7619.json
+  map_out: work/audio_map2.json # word -> {uk,us} mp3 filename map (stage 05 input)
+
+translate:
+  data_dir: work
+  entries: entries_7619.json
+  cache: translations.json      # inside data_dir; key = cleaned English sentence
+  api_url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+  model: qwen-flash             # any OpenAI-compatible chat model
+  api_key_env: S2A_TRANSLATE_API_KEY   # env var NAME holding the key (never in config)
+  temperature: 0.2
+  workers: 16
+
+attribute:
+  data_dir: work
+  cards: work/cards_built.json  # stage 05 output
+  audit_out: work/attributor_audit.jsonl
+  llm:
+    enabled: false              # false = deterministic rules-only (fully offline)
+    api_key_env: S2A_LLM_API_KEY
+    api_url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+    models: [qwen3.8-flash, qwen-flash, qwen-turbo, qwen-plus]
+
+finalize:
+  data_dir: work
+  cards: work/cards_built.json
+  audit: work/attributor_audit.jsonl
+  out_path: work/cards_final.json
+
+anki:
+  host: 127.0.0.1
+  port: 27701
+  api_key_file: null            # ABSOLUTE path to AnkiConnect key file, outside the repo
+  api_key_env: S2A_ANKI_KEY     # fallback: env var NAME
+  model: MyVocab v1
+  deck: MyVocabDeck
+  template_name: Card 1
+  batch: 300
+  cards: work/cards_final.json  # stage 05c output
+  fields_from: null             # or the record key holding the final field dict
+  word_field: 单词
+  fields: [单词, 音节, 音标美, 音标英, 发音美, 发音英, 考频, 常用义项, 英英释义,
+           真题例句, 高质量例句, 词根, 词源, 助记, 辨析, 柯林斯, 搭配, 同根词,
+           全义项, 柯林斯星级]
+  tags: [vocabulary]
+  star_tag: {field: 官方★, tag: starred}
+  allow_duplicate: false
+  written_log: work/written.json
+  template:
+    front: assets/templates/v5_front.html
+    back: assets/templates/v5_back.html
+    css: assets/templates/v5_css.css
+  media:
+    dir: work/audio32
+    done_log: work/media_done.json
+    workers: 6
+
+audit:
+  data_dir: work                # for the optional G4 semantic gate (hbs COCA index)
+  cards: work/cards_final.json
+  media_dir: null               # ABSOLUTE path to Anki collection.media (anki mode)

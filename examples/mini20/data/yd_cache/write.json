@@ -1,0 +1,105 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "raɪt",
+    "usphone": "raɪt",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "v. 写，书写"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "VERB",
+          "pos_tips": "动词"
+         },
+         "tran": "写",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "Please write your name at the top.",
+            "chn_sent": "请在顶部写下你的名字。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "v.",
+     "tr": [
+      {
+       "l": "to make letters or words on paper or a screen"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "He began to write a letter to his family.",
+    "sentence-translation": "他开始给家人写信。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "write down",
+     "trs": [
+      {
+       "tr": "记下"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "writer",
+       "tran": "作家"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

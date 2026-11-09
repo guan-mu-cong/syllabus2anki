@@ -1,0 +1,92 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "taɪm",
+    "usphone": "taɪm",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 时间；次数"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-UNCOUNT",
+          "pos_tips": "不可数名词"
+         },
+         "tran": "时间",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "Time passes quickly when you are busy.",
+            "chn_sent": "忙碌时时间过得很快。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "what you measure with a clock"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "We had a great time at the party.",
+    "sentence-translation": "我们在聚会上玩得很开心。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "on time",
+     "trs": [
+      {
+       "tr": "准时"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {}
+}

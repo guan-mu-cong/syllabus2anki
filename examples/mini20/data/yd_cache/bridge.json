@@ -1,0 +1,92 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "brɪdʒ",
+    "usphone": "brɪdʒ",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 桥，桥梁"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 3,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "桥",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The old bridge was made of stone.",
+            "chn_sent": "这座旧桥是石头建的。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "a structure carrying a road across a river or other obstacle"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "A new bridge will connect the two towns.",
+    "sentence-translation": "一座新桥将连接这两个城镇。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "build a bridge",
+     "trs": [
+      {
+       "tr": "建桥"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {}
+}

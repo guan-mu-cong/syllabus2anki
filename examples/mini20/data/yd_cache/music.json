@@ -1,0 +1,105 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈmjuː.zɪk",
+    "usphone": "ˈmjuː.zɪk",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 音乐，乐曲"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-UNCOUNT",
+          "pos_tips": "不可数名词"
+         },
+         "tran": "音乐",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "She listens to music every evening.",
+            "chn_sent": "她每晚都听音乐。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "sounds arranged in a pleasant way"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "The music filled the whole hall.",
+    "sentence-translation": "音乐充满了整个大厅。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "pop music",
+     "trs": [
+      {
+       "tr": "流行音乐"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "musical",
+       "tran": "音乐的"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

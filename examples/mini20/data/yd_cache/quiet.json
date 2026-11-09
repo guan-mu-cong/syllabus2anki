@@ -1,0 +1,105 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈkwaɪ.ət",
+    "usphone": "ˈkwaɪ.ət",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "adj. 安静的，平静的"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 4,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "ADJ",
+          "pos_tips": "形容词"
+         },
+         "tran": "安静的",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "Please keep quiet in the library.",
+            "chn_sent": "请在图书馆保持安静。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "adj.",
+     "tr": [
+      {
+       "l": "making little or no noise"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "The village is quiet at night.",
+    "sentence-translation": "这个村庄夜晚很安静。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "keep quiet",
+     "trs": [
+      {
+       "tr": "保持安静"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "quietly",
+       "tran": "安静地"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

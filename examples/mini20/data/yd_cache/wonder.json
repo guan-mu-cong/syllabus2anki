@@ -1,0 +1,124 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈwʌn.dər",
+    "usphone": "ˈwʌn.dɚ",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "v. 想知道，感到疑惑"
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 惊奇，奇迹"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 3,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "VERB",
+          "pos_tips": "动词"
+         },
+         "tran": "想知道",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "I wonder why he left early.",
+            "chn_sent": "我想知道他为什么早退。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "v.",
+     "tr": [
+      {
+       "l": "to ask yourself questions about something"
+      }
+     ]
+    },
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "a feeling of surprise and interest"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "She began to wonder what had happened.",
+    "sentence-translation": "她开始想知道发生了什么。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "no wonder",
+     "trs": [
+      {
+       "tr": "难怪"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "wonderful",
+       "tran": "精彩的"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

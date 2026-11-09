@@ -1,10 +1,11 @@
-# Vendored from the private production pipeline (syllabus2anki M2).
-# Logic is UNCHANGED except the WS data-dir override via S2A_DATA_DIR,
-# so regression output is byte-identical to production. See docs/pipeline.md.
+# Vendored from the private production pipeline (syllabus2anki).
+# Logic UNCHANGED except: (1) WS data-dir override via S2A_DATA_DIR,
+# (2) tolerant/overridable data-file loads (S2A_ENTRIES / S2A_AUDIO_MAP_OUT).
+# Regression-verified byte-identical against production outputs. See docs/pipeline.md.
 import os
 import json, os, re, html
 
-WS = os.environ.get("S2A_DATA_DIR") or os.path.dirname(os.path.abspath(__file__))  # 2026-11-08 迁移：scratch 已被清理
+WS = os.environ.get("S2A_DATA_DIR") or os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(WS, "yd_cache")
 
 

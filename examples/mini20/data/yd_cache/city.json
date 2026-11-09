@@ -1,0 +1,79 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈsɪt.i",
+    "usphone": "ˈsɪt̬.i",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "n. 城市，都市"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 5,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "N-COUNT",
+          "pos_tips": "可数名词"
+         },
+         "tran": "城市",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "The city is famous for its parks.",
+            "chn_sent": "这座城市以公园闻名。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "n.",
+     "tr": [
+      {
+       "l": "a large important town"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "More people are moving to the city for work.",
+    "sentence-translation": "更多人为了工作搬进这座城市。"
+   }
+  ]
+ },
+ "phrs": {},
+ "rel_word": {}
+}

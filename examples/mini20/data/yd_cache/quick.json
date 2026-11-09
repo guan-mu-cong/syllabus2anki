@@ -1,0 +1,92 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "kwɪk",
+    "usphone": "kwɪk",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "adj. 快的，迅速的"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 4,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "ADJ",
+          "pos_tips": "形容词"
+         },
+         "tran": "迅速的",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "He gave a quick answer.",
+            "chn_sent": "他迅速给出了回答。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "adj.",
+     "tr": [
+      {
+       "l": "happening or done without delay"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "She took a quick look at the clock.",
+    "sentence-translation": "她快速看了一眼时钟。"
+   }
+  ]
+ },
+ "phrs": {},
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "quickly",
+       "tran": "迅速地"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

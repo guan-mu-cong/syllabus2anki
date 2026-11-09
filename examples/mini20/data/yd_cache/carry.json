@@ -1,0 +1,105 @@
+{
+ "ec": {
+  "word": [
+   {
+    "ukphone": "ˈkær.i",
+    "usphone": "ˈker.i",
+    "ukspeech": "",
+    "usspeech": "",
+    "trs": [
+     {
+      "tr": [
+       {
+        "l": {
+         "i": [
+          "v. 携带，搬运"
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "collins": {
+  "collins_entries": [
+   {
+    "star": 4,
+    "entries": {
+     "entry": [
+      {
+       "tran_entry": [
+        {
+         "pos_entry": {
+          "pos": "VERB",
+          "pos_tips": "动词"
+         },
+         "tran": "搬运",
+         "exam_sents": {
+          "sent": [
+           {
+            "eng_sent": "She carried a heavy box upstairs.",
+            "chn_sent": "她把一个重箱子搬上楼。"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "ee": {
+  "word": {
+   "trs": [
+    {
+     "pos": "v.",
+     "tr": [
+      {
+       "l": "to support and move something from one place to another"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blng_sents_part": {
+  "sentence-pair": [
+   {
+    "sentence-eng": "He helped me carry the bags to the car.",
+    "sentence-translation": "他帮我把袋子搬到车上。"
+   }
+  ]
+ },
+ "phrs": {
+  "phrs": [
+   {
+    "phr": {
+     "headword": "carry out",
+     "trs": [
+      {
+       "tr": "执行"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "rel_word": {
+  "rels": [
+   {
+    "rel": {
+     "words": [
+      {
+       "word": "carrier",
+       "tran": "搬运工"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

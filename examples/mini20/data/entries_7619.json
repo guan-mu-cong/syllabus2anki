@@ -1,0 +1,184 @@
+{
+ "entries": [
+  {
+   "word": "apple",
+   "display": "apple",
+   "official": "apple",
+   "variants": [],
+   "star": true,
+   "page": 3,
+   "source": "fetch"
+  },
+  {
+   "word": "book",
+   "display": "book",
+   "official": "book",
+   "variants": [],
+   "star": true,
+   "page": 3,
+   "source": "fetch"
+  },
+  {
+   "word": "river",
+   "display": "river",
+   "official": "river",
+   "variants": [],
+   "star": true,
+   "page": 5,
+   "source": "fetch"
+  },
+  {
+   "word": "quiet",
+   "display": "quiet",
+   "official": "quiet",
+   "variants": [],
+   "star": true,
+   "page": 6,
+   "source": "fetch"
+  },
+  {
+   "word": "bridge",
+   "display": "bridge",
+   "official": "bridge",
+   "variants": [],
+   "star": false,
+   "page": 7,
+   "source": "fetch"
+  },
+  {
+   "word": "carry",
+   "display": "carry",
+   "official": "carry",
+   "variants": [],
+   "star": false,
+   "page": 7,
+   "source": "fetch"
+  },
+  {
+   "word": "simple",
+   "display": "simple",
+   "official": "simple",
+   "variants": [],
+   "star": false,
+   "page": 8,
+   "source": "fetch"
+  },
+  {
+   "word": "wonder",
+   "display": "wonder",
+   "official": "wonder",
+   "variants": [],
+   "star": true,
+   "page": 9,
+   "source": "fetch"
+  },
+  {
+   "word": "ocean",
+   "display": "ocean",
+   "official": "ocean",
+   "variants": [],
+   "star": true,
+   "page": 10,
+   "source": "fetch"
+  },
+  {
+   "word": "mountain",
+   "display": "mountain",
+   "official": "mountain",
+   "variants": [],
+   "star": false,
+   "page": 11,
+   "source": "fetch"
+  },
+  {
+   "word": "dream",
+   "display": "dream",
+   "official": "dream",
+   "variants": [],
+   "star": true,
+   "page": 12,
+   "source": "fetch"
+  },
+  {
+   "word": "learn",
+   "display": "learn",
+   "official": "learn",
+   "variants": [],
+   "star": true,
+   "page": 13,
+   "source": "fetch"
+  },
+  {
+   "word": "city",
+   "display": "city",
+   "official": "city",
+   "variants": [],
+   "star": false,
+   "page": 14,
+   "source": "fetch"
+  },
+  {
+   "word": "music",
+   "display": "music",
+   "official": "music",
+   "variants": [],
+   "star": false,
+   "page": 15,
+   "source": "fetch"
+  },
+  {
+   "word": "friend",
+   "display": "friend",
+   "official": "friend",
+   "variants": [],
+   "star": false,
+   "page": 16,
+   "source": "fetch"
+  },
+  {
+   "word": "happy",
+   "display": "happy",
+   "official": "happy",
+   "variants": [],
+   "star": false,
+   "page": 17,
+   "source": "fetch"
+  },
+  {
+   "word": "write",
+   "display": "write",
+   "official": "write",
+   "variants": [],
+   "star": false,
+   "page": 18,
+   "source": "fetch"
+  },
+  {
+   "word": "light",
+   "display": "light",
+   "official": "light",
+   "variants": [],
+   "star": false,
+   "page": 19,
+   "source": "fetch"
+  },
+  {
+   "word": "time",
+   "display": "time",
+   "official": "time",
+   "variants": [],
+   "star": false,
+   "page": 20,
+   "source": "fetch"
+  },
+  {
+   "word": "quick",
+   "display": "quick",
+   "official": "quick",
+   "variants": [],
+   "star": true,
+   "page": 21,
+   "source": "fetch"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "apple": {
+  "uk": "yd_apple_uk.mp3",
+  "us": "yd_apple_us.mp3"
+ },
+ "book": {
+  "uk": "yd_book_uk.mp3",
+  "us": "yd_book_us.mp3"
+ },
+ "river": {
+  "uk": "yd_river_uk.mp3",
+  "us": "yd_river_us.mp3"
+ },
+ "quiet": {
+  "uk": "yd_quiet_uk.mp3",
+  "us": "yd_quiet_us.mp3"
+ },
+ "bridge": {
+  "uk": "yd_bridge_uk.mp3",
+  "us": "yd_bridge_us.mp3"
+ },
+ "carry": {
+  "uk": "yd_carry_uk.mp3",
+  "us": "yd_carry_us.mp3"
+ },
+ "simple": {
+  "uk": "yd_simple_uk.mp3",
+  "us": "yd_simple_us.mp3"
+ },
+ "wonder": {
+  "uk": "yd_wonder_uk.mp3",
+  "us": "yd_wonder_us.mp3"
+ },
+ "ocean": {
+  "uk": "yd_ocean_uk.mp3",
+  "us": "yd_ocean_us.mp3"
+ },
+ "mountain": {
+  "uk": "yd_mountain_uk.mp3",
+  "us": "yd_mountain_us.mp3"
+ },
+ "dream": {
+  "uk": "yd_dream_uk.mp3",
+  "us": "yd_dream_us.mp3"
+ },
+ "learn": {
+  "uk": "yd_learn_uk.mp3",
+  "us": "yd_learn_us.mp3"
+ },
+ "city": {
+  "uk": "yd_city_uk.mp3",
+  "us": "yd_city_us.mp3"
+ },
+ "music": {
+  "uk": "yd_music_uk.mp3",
+  "us": "yd_music_us.mp3"
+ },
+ "friend": {
+  "uk": "yd_friend_uk.mp3",
+  "us": "yd_friend_us.mp3"
+ },
+ "happy": {
+  "uk": "yd_happy_uk.mp3",
+  "us": "yd_happy_us.mp3"
+ },
+ "write": {
+  "uk": "yd_write_uk.mp3",
+  "us": "yd_write_us.mp3"
+ },
+ "light": {
+  "uk": "yd_light_uk.mp3",
+  "us": "yd_light_us.mp3"
+ },
+ "time": {
+  "uk": "yd_time_uk.mp3",
+  "us": "yd_time_us.mp3"
+ },
+ "quick": {
+  "uk": "yd_quick_uk.mp3",
+  "us": "yd_quick_us.mp3"
+ }
+}

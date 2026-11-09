@@ -1,17 +1,29 @@
-# Vendored from the private production pipeline (syllabus2anki M2).
-# Logic is UNCHANGED except the WS data-dir override via S2A_DATA_DIR,
-# so regression output is byte-identical to production. See docs/pipeline.md.
+# Vendored from the private production pipeline (syllabus2anki).
+# Logic UNCHANGED except: (1) WS data-dir override via S2A_DATA_DIR,
+# (2) tolerant/overridable data-file loads (S2A_ENTRIES / S2A_AUDIO_MAP_OUT).
+# Regression-verified byte-identical against production outputs. See docs/pipeline.md.
 import json, os, re, sys, html, random
 
-WS = os.environ.get("S2A_DATA_DIR") or os.path.dirname(os.path.abspath(__file__))  # 2026-11-08: 旧路径指向 scratch，已被 24h 清理，改用工程目录
+WS = os.environ.get("S2A_DATA_DIR") or os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, WS)
 import ydparse
 import p0_clean as P0
 import freq
 
+def _s2a_load(name, default):
+    """Tolerant JSON load: missing/corrupt file -> default (keeps new-word runs lean)."""
+    p = os.path.join(WS, name)
+    if not os.path.exists(p):
+        return default
+    try:
+        return json.load(open(p, encoding="utf-8"))
+    except Exception:
+        return default
 
-plan = {p["word"].strip().lower(): p for p in json.load(open(os.path.join(WS, "plan.json"), encoding="utf-8"))}
-corpus = json.load(open(os.path.join(WS, "corpus.json"), encoding="utf-8"))
+
+
+plan = {p["word"].strip().lower(): p for p in _s2a_load("plan.json", [])}
+corpus = _s2a_load("corpus.json", {})
 
 
 def _cet_papers(c):
@@ -29,9 +41,9 @@ def _cet_papers(c):
 
 CET_PAPERS = _cet_papers(corpus)
 
-hbs = json.load(open(os.path.join(WS, "hbs_index.json"), encoding="utf-8"))
-engra = json.load(open(os.path.join(WS, "engra_index.json"), encoding="utf-8"))
-amap = json.load(open(os.path.join(WS, "audio_map.json"), encoding="utf-8"))
+hbs = _s2a_load("hbs_index.json", {})
+engra = _s2a_load("engra_index.json", {})
+amap = _s2a_load("audio_map.json", {})
 from wordfreq import zipf_frequency
 
 _TRANS = {}
