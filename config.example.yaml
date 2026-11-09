@@ -62,3 +62,14 @@ extract:
     - "owing to"
     - coup
     - zoom
+
+build:
+  # Data directory holding the pipeline working files (entries json from
+  # stage 01, dictionary cache from stage 02, corpus/frequency/audio/
+  # translation caches from stages 02-04). Standard filenames expected:
+  #   entries_7619.json  plan.json  corpus.json  hbs_index.json
+  #   engra_index.json  audio_map.json  audio_map2.json  translations.json
+  #   ai_mnemonic.json  yd_cache/
+  # NOT bundled in this repo (dictionary-derived data); see docs/compliance.md.
+  data_dir: work
+  out_path: work/cards_built.json
