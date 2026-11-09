@@ -1,0 +1,8 @@
+# local machine config (contains personal paths)
+config.local.yaml
+# pipeline working data: caches, intermediate json, audio — never commit
+work/
+downloads/
+# python
+__pycache__/
+*.pyc
